@@ -95,7 +95,8 @@ venv\Scripts\activate      # Windows
 ```
 ▶️ How to Run the Application
 
-```python main.py
+```
+python main.py
 ```
 The application will:
 
