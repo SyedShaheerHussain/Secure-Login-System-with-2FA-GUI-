@@ -99,15 +99,16 @@ venv\Scripts\activate      # Windows
 ```
 python main.py
 ```
-The application will:
+*The application will:*
 
-Initialize database tables automatically
+* Initialize database tables automatically
 
-Open the Login screen
+* Open the Login screen
 
-Allow new user registration
+* Allow new user registration
 
 ### 🔄 Application Flow (Start to End)
+
 ## 📝 Registration
 
 1. User opens Sign Up
@@ -142,7 +143,7 @@ Allow new user registration
 
 7. Dashboard opens
 
-**📧 OTP Email Configuration (Important)**
+**📧 OTP Email Configuration [!Important]**
 
 *⚠️ OTP will NOT work unless email settings are configured manually by the user.*
 
@@ -179,6 +180,7 @@ SMTP_PORT = 465
 ```
 > [!Important]
 > **⚠️ Never use your real Gmail password**
+
 > **⚠️ Always use App Password**
 
 ## 🔒 Security Notes
@@ -191,7 +193,7 @@ SMTP_PORT = 465
 
 4. User email is unique (prevents duplicate accounts)
 
-5 Modular codebase for easy extension
+5. Modular codebase for easy extension
 
 ## 🚧 Future Improvements (Optional)
 
@@ -211,7 +213,9 @@ SMTP_PORT = 465
 
 > [!Note]
 > This project is created for educational and portfolio purposes.
+> 
 > **Before using in production:**
+> 
 > 1. Use environment variables
 > 2. Use encrypted database
 > 3. Implement HTTPS for network-based versions
