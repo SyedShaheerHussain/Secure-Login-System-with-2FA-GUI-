@@ -9,8 +9,6 @@ This project is suitable for:
 - Secure Desktop Application Demonstration
 - Authentication System Learning
 
----
-
 ## 🚀 Project Overview
 
 This application provides a **secure login and registration system** with:
@@ -21,8 +19,6 @@ This application provides a **secure login and registration system** with:
 - Real-world security workflow
 
 The system ensures that **even if a password is compromised, login is impossible without OTP verification**.
-
----
 
 ## ✨ Key Features
 
@@ -60,8 +56,6 @@ The system ensures that **even if a password is compromised, login is impossible
 - Security status
 - Logout functionality
 
----
-
 ## 🛠️ Technologies Used
 
 | Category | Technology |
@@ -74,26 +68,33 @@ The system ensures that **even if a password is compromised, login is impossible
 | Email | smtplib (SMTP) |
 | Architecture | Modular (MVC-style) |
 
----
-
-
-
 ## ⚙️ Installation Guide
 
 ### 1️⃣ Clone Repository
 ```
-git clone https://github.com/yourusername/SecureLoginSystem.git
+git clone https://github.com/SyedShaheerHussain/Secure-Login-System-with-2FA-GUI-.git
+
+```
+```
 cd SecureLoginSystem
+
 ```
 
-## 2️⃣ Create Virtual Environment (Recommended)
+### 2️⃣ Create Virtual Environment (Optional)
 
 ```
 python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
+
 ```
-▶️ How to Run the Application
+```
+source venv/bin/activate   # Linux / Mac
+
+```
+```
+venv\Scripts\activate      # Windows
+
+```
+### ▶️ How to Run the Application
 
 ```
 python main.py
@@ -106,124 +107,126 @@ Open the Login screen
 
 Allow new user registration
 
-🔄 Application Flow (Start to End)
-📝 Registration
+### 🔄 Application Flow (Start to End)
+## 📝 Registration
 
-User opens Sign Up
+1. User opens Sign Up
 
-Enters:
+2. Enters:
 
-Username
+3. Username
 
-Email
+4. Email
 
-Strong Password
+5. Strong Password
 
-Password is hashed using bcrypt
+6. Password is hashed using bcrypt
 
-User is saved in the database
+7. User is saved in the database
 
-User proceeds to login
+8. User proceeds to login
 
-🔐 Login + OTP Verification
+## 🔐 Login + OTP Verification
 
-User enters email + password
+1. User enters email + password
 
-Password is verified
+2. Password is verified
 
-OTP is generated
+3. OTP is generated
 
-OTP is sent to user's email
+4. OTP is sent to user's email
 
-User enters OTP on OTP screen
+5. User enters OTP on OTP screen
 
-OTP is verified
+6. OTP is verified
 
-Dashboard opens
+7. Dashboard opens
 
-📧 OTP Email Configuration (Important)
+**📧 OTP Email Configuration (Important)**
 
-⚠️ OTP will NOT work unless email settings are configured manually by the user.
+*⚠️ OTP will NOT work unless email settings are configured manually by the user.*
 
-Why?
+**Why?**
 
-For security reasons, email credentials are NOT included in the project.
+*For security reasons, email credentials are NOT included in the project.*
 
-✅ Steps to Enable OTP Email
-Step 1: Enable 2-Step Verification (Gmail)
+## ✅ Steps to Enable OTP Email
 
-Google Account → Security
+### Step 1: Enable 2-Step Verification (Gmail)
 
-Enable 2-Step Verification
+1. Google Account → Security
 
-Step 2: Generate App Password
+2. Enable 2-Step Verification
 
-Google Account → Security → App Passwords
+### Step 2: Generate App Password
 
-App: Mail
+1. Google Account → Security → App Passwords
 
-Device: Windows
+2. App: Mail
 
-Generate password
+3. Device: Windows
 
-Step 3: Configure config.py
+4. Generate password
+
+### Step 3: Configure config.py
+
 ```
 EMAIL_ADDRESS = "your_email@gmail.com"
 EMAIL_PASSWORD = "your_app_password_here"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
+
 ```
-⚠️ Never use your real Gmail password
-⚠️ Always use App Password
+> [!Important]
+> **⚠️ Never use your real Gmail password**
+> **⚠️ Always use App Password**
 
-🔒 Security Notes
+## 🔒 Security Notes
 
-Passwords are never stored in plain text
+1. Passwords are never stored in plain text
 
-OTP expires after limited time
+2. OTP expires after limited time
 
-Email credentials are excluded from repository
+3. Email credentials are excluded from repository
 
-User email is unique (prevents duplicate accounts)
+4. User email is unique (prevents duplicate accounts)
 
-Modular codebase for easy extension
+5 Modular codebase for easy extension
 
-🚧 Future Improvements (Optional)
+## 🚧 Future Improvements (Optional)
 
-Google Authenticator (TOTP) support
+1. Google Authenticator (TOTP) support
 
-OTP resend timer
+2. OTP resend timer
 
-Account lockout after failed attempts
+3. Account lockout after failed attempts
 
-Login history & device info
+4. Login history & device info
 
-Password reset via email
+5. Password reset via email
 
-Admin panel
+6. Admin panel
 
-📌 Disclaimer
+## 📌 Disclaimer
 
-This project is created for educational and portfolio purposes.
-Before using in production:
+> [!Note]
+> This project is created for educational and portfolio purposes.
+> **Before using in production:**
+> 1. Use environment variables
+> 2. Use encrypted database
+> 3. Implement HTTPS for network-based versions
 
-Use environment variables
+## 👨‍💻 Author
 
-Use encrypted database
-
-Implement HTTPS for network-based versions
-
-👨‍💻 Author
-
-Syed Shaheer Hussain
+© Syed Shaheer Hussain
 Python | Cyber Security | Secure Systems
 
-⭐ Support
+## ⭐ Support
 
-If you like this project:
+**If you like this project:**
 
-Star ⭐ the repository
+**Star ⭐ the repository**
 
-Fork 🍴 it
+**Fork 🍴 it**
 
-Share with others
+**Share with others**
