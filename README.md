@@ -144,8 +144,8 @@ python main.py
 7. Dashboard opens
 
 **📧 OTP Email Configuration**
-> [!Important]
 
+> [!Important]
 > *⚠️ OTP will NOT work unless email settings are configured manually by the user.*
 
 **Why?**
@@ -182,6 +182,7 @@ SMTP_PORT = 465
 > [!Important]
 > 
 > **⚠️ Never use your real Gmail password**
+> 
 > **⚠️ Always use App Password**
 
 ## 🔒 Security Notes
