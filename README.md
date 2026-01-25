@@ -143,7 +143,7 @@ python main.py
 
 7. Dashboard opens
 
-**📧 OTP Email Configuration [!Important]**
+**📧 OTP Email Configuration > [!Important]**
 
 *⚠️ OTP will NOT work unless email settings are configured manually by the user.*
 
