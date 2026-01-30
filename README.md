@@ -3,6 +3,20 @@
 A secure authentication system that protects user accounts using password-based login combined with two-factor authentication. It enhances security by verifying user identity through an additional one-time code, reducing unauthorized access and improving data protection.
 A **Python-based Desktop Secure Authentication System** implementing real-world security practices such as **bcrypt password hashing**, **email-based OTP verification**, and **Two-Factor Authentication (2FA)** with a modern GUI.
 
+## 📷 Screenshots
+
+![Screenshot 1](https://github.com/SyedShaheerHussain/Secure-Login-System-with-2FA-GUI-/blob/48272dfa2a5dee4f2b40d9214aeea17056f18f58/screenshots/Screenshot%20(30).png)
+
+![Screenshot 2](https://github.com/SyedShaheerHussain/Secure-Login-System-with-2FA-GUI-/blob/48272dfa2a5dee4f2b40d9214aeea17056f18f58/screenshots/Screenshot%20(31).png)
+
+![Screenshot 3](https://github.com/SyedShaheerHussain/Secure-Login-System-with-2FA-GUI-/blob/48272dfa2a5dee4f2b40d9214aeea17056f18f58/screenshots/Screenshot%20(32).png)
+
+![Screenshot 4](https://github.com/SyedShaheerHussain/Secure-Login-System-with-2FA-GUI-/blob/48272dfa2a5dee4f2b40d9214aeea17056f18f58/screenshots/Screenshot%20(33).png)
+
+![Screenshot 5](https://github.com/SyedShaheerHussain/Secure-Login-System-with-2FA-GUI-/blob/48272dfa2a5dee4f2b40d9214aeea17056f18f58/screenshots/Screenshot%20(34).png)
+
+![Screenshot 6](https://github.com/SyedShaheerHussain/Secure-Login-System-with-2FA-GUI-/blob/48272dfa2a5dee4f2b40d9214aeea17056f18f58/screenshots/Screenshot%20(35).png)
+
 This project is suitable for:
 - Final Year Project (FYP)
 - Cyber Security / Python Portfolio
