@@ -1,5 +1,9 @@
 # 🔐 Secure Login System with Two-Factor Authentication (2FA)
 
+A secure login system that combines password authentication with two-factor verification for enhanced account protection.
+
+## Description
+
 A secure authentication system that protects user accounts using password-based login combined with two-factor authentication. It enhances security by verifying user identity through an additional one-time code, reducing unauthorized access and improving data protection.
 A **Python-based Desktop Secure Authentication System** implementing real-world security practices such as **bcrypt password hashing**, **email-based OTP verification**, and **Two-Factor Authentication (2FA)** with a modern GUI.
 
