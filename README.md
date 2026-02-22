@@ -245,12 +245,21 @@ SMTP_PORT = 465
 **© Syed Shaheer Hussain**
 Python | Cyber Security | Secure Systems
 
-## ⭐ Support
+## ⭐ Support & Engagement
 
-**If you like this project:**
+If you find this repository useful or insightful, please consider:
 
-**Star ⭐ the repository**
+- ⭐ Starring the repository
+- 🔁 Sharing it within your network
+- 👤 Following my GitHub profile for future projects and updates
 
-**Fork 🍴 it**
+Your support helps drive continued innovation and open-source contributions.
 
-**Share with others**
+— Syed Shaheer Hussain
+
+[![GitHub followers](https://img.shields.io/github/followers/SyedShaheerHussain?label=Follow&style=social)](https://github.com/SyedShaheerHussain)
+
+![Followers](https://img.shields.io/github/followers/SyedShaheerHussain?label=Followers&color=blue)
+
+![Stars](https://img.shields.io/github/stars/SyedShaheerHussain/Secure-Login-System-with-2FA-GUI-?label=Stars&color=yellow)
+
